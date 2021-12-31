@@ -1,0 +1,31 @@
+.trash {
+    width: 100px;
+    position: absolute;
+    z-index: 9;
+    background: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.bucket {
+    width: 70px;
+    margin: 100px 100px;
+    display: none;
+}
+
+.bucket.active {
+    display: block;
+}
+
+.trash__image {
+    width: 50px;
+}
